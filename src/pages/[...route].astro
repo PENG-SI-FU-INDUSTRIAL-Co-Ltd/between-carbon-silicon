@@ -1,0 +1,14 @@
+---
+import ArchiveLayout from "../layouts/ArchiveLayout.astro";
+import pages from "../data/pages.json";
+
+export function getStaticPaths() {
+  const uniquePages = [...new Map(pages.map((page) => [page.route, page])).values()];
+  return uniquePages.map((page) => ({
+    params: { route: page.route === "/" ? undefined : page.route.replace(/^\/|\/$/g, "") },
+    props: { page },
+  }));
+}
+const { page } = Astro.props;
+---
+<ArchiveLayout page={page} />

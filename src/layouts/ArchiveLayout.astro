@@ -1,0 +1,53 @@
+---
+import { readFileSync } from "node:fs";
+import path from "node:path";
+import * as cheerio from "cheerio";
+import SiteHeader from "../components/SiteHeader.astro";
+import SiteFooter from "../components/SiteFooter.astro";
+const { page } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const deployedOrigin = Astro.site?.origin || "https://between.ghost.io";
+const withBase = (html) => html
+  .replace(/((?:src|srcset|href|poster)=["'])\/(?!\/)/g, `$1${base}/`)
+  .replace(/([,\s])(\/assets\/)/g, `$1${base}$2`);
+const canonicalPath = new URL(page.canonical || page.url).pathname;
+const localShareImage = page.body.match(/(?:src|poster)="(\/assets\/archive\/[^"]+)"/)?.[1];
+const archivedHtml = readFileSync(path.join(process.cwd(), "archive", "html", `${page.id}.html`), "utf8");
+const inlineStyles = withBase([...archivedHtml.matchAll(/<style\b[^>]*>([\s\S]*?)<\/style>/gi)].map(match => match[1]).join("\n"));
+const htmlClass = archivedHtml.match(/<html\b[^>]*\bclass="([^"]*)"/i)?.[1] || "";
+const bodyClass = archivedHtml.match(/<body\b[^>]*\bclass="([^"]*)"/i)?.[1] || "";
+const archived$ = cheerio.load(archivedHtml);
+const announcementHtml = withBase(archived$("#announcement-bar-root").first().prop("outerHTML") || "");
+const $ = cheerio.load(page.body);
+const headerHtml = withBase($("#gh-head").first().prop("outerHTML") || "");
+const footerHtml = withBase($(".gh-foot").first().prop("outerHTML") || "");
+$("#gh-head, .gh-foot").remove();
+const contentHtml = withBase($("body").html() || $.root().html() || "");
+---
+<!doctype html>
+<html lang="zh" class={htmlClass}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{page.title}</title>
+    {page.description && <meta name="description" content={page.description} />}
+    <link rel="canonical" href={`https://between.ghost.io${canonicalPath}`} />
+    {Object.entries(page.og || {}).map(([property, content]) => (
+      <meta property={`og:${property}`} content={
+        property === "url" ? `https://between.ghost.io${canonicalPath}`
+        : property === "image" && localShareImage ? `${deployedOrigin}${base}${localShareImage}`
+        : content
+      } />
+    ))}
+    <link rel="stylesheet" href={`${base}/assets/archive/72de8da874faf10b8b22.css`} />
+    <link rel="stylesheet" href={`${base}/assets/archive/8952b4fb65464f4e55c4.css`} />
+    <style set:html={inlineStyles} />
+    <link rel="stylesheet" href={`${base}/site.css`} />
+    <script src={`${base}/site.js`} defer></script>
+  </head>
+  <body class={bodyClass}>
+    <SiteHeader announcementHtml={announcementHtml} html={headerHtml} />
+    <Fragment set:html={contentHtml} />
+    <SiteFooter html={footerHtml} />
+  </body>
+</html>

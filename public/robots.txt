@@ -1,0 +1,8 @@
+User-agent: *
+Sitemap: https://peng-si-fu-industrial-co-ltd.github.io/between-carbon-silicon/sitemap-index.xml
+Disallow: /ghost/
+Disallow: /email/
+Disallow: /members/api/comments/counts/
+Disallow: /r/
+Disallow: /webmentions/receive/
+Disallow: /.ghost/analytics/api/

@@ -1,0 +1,47 @@
+/* Static-migration overrides: retain the public presentation, remove Ghost services. */
+@font-face {
+  font-family: "Cardo";
+  src: url("./assets/archive/5dc12b503d5a29a44c35.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Serif";
+  src: url("./assets/archive/a720f3a6a9dea7b88913.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Serif";
+  src: url("./assets/archive/b82f2223fa67d7eff591.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Serif";
+  src: url("./assets/archive/2a9706d5afc510c8eb60.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+.gh-portal-triggerbtn-wrapper,
+[data-portal],
+form[data-members-form],
+.gh-cta,
+.gh-head-actions .gh-head-btn,
+.gh-head-actions .gh-search,
+.gh-comments,
+.gh-post-upgrade-cta {
+  display: none !important;
+}
+
+audio {
+  max-width: 100%;
+}

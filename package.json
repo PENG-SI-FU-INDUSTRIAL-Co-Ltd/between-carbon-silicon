@@ -1,0 +1,22 @@
+{
+  "name": "between-static-archive",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "audit": "node scripts/audit.mjs",
+    "build": "astro build",
+    "dev": "astro dev",
+    "sync:archives": "node scripts/sync-archives.mjs",
+    "verify": "node scripts/verify.mjs"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.6.0",
+    "astro": "^5.13.5",
+    "cheerio": "^1.1.2"
+  },
+  "devDependencies": {
+    "pixelmatch": "^7.1.0",
+    "playwright": "^1.55.0",
+    "pngjs": "^7.0.0"
+  }
+}

@@ -105,25 +105,32 @@
     "contentType": "font/woff2"
   },
   {
+    "url": "https://cdn.jsdelivr.net/ghost/portal@~2.69/umd/portal.min.js",
+    "method": "GET",
+    "resourceType": "script",
+    "status": 304,
+    "contentType": ""
+  },
+  {
     "url": "https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js",
     "method": "GET",
     "resourceType": "script",
-    "status": 200,
-    "contentType": "application/javascript; charset=utf-8"
+    "status": 304,
+    "contentType": ""
   },
   {
     "url": "https://cdn.jsdelivr.net/ghost/announcement-bar@~1.1/umd/announcement-bar.min.js",
     "method": "GET",
     "resourceType": "script",
-    "status": 200,
-    "contentType": "application/javascript; charset=utf-8"
+    "status": 304,
+    "contentType": ""
   },
   {
-    "url": "https://cdn.jsdelivr.net/ghost/portal@~2.69/umd/portal.min.js",
+    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/size/w1200/2026/07/58481A87-9A37-4E0F-9A4A-AB3F3DE8AF62_4_5005_c-2.jpeg",
     "method": "GET",
-    "resourceType": "script",
+    "resourceType": "image",
     "status": 200,
-    "contentType": "application/javascript; charset=utf-8"
+    "contentType": "image/jpeg"
   },
   {
     "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/size/w1200/2026/07/-------2026-07-16-------2.03.41.png",
@@ -140,11 +147,18 @@
     "contentType": "image/png"
   },
   {
-    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/size/w1200/2026/07/-------2026-07-16-------1.59.45.png",
+    "url": "https://cdn.jsdelivr.net/ghost/portal@~2.69/umd/portal.min.js",
     "method": "GET",
-    "resourceType": "image",
-    "status": 200,
-    "contentType": "image/png"
+    "resourceType": "other",
+    "status": 304,
+    "contentType": ""
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js",
+    "method": "GET",
+    "resourceType": "other",
+    "status": 304,
+    "contentType": ""
   },
   {
     "url": "https://between.ghost.io/members/api/member/",
@@ -155,6 +169,20 @@
   },
   {
     "url": "https://between.ghost.io/members/api/announcement/",
+    "method": "GET",
+    "resourceType": "fetch",
+    "status": 200,
+    "contentType": "application/json; charset=utf-8"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/ghost/announcement-bar@~1.1/umd/announcement-bar.min.js",
+    "method": "GET",
+    "resourceType": "other",
+    "status": 304,
+    "contentType": ""
+  },
+  {
+    "url": "https://between.ghost.io/ghost/api/content/newsletters/?limit=100&key=a8763390c4c38ea4085efcf87e",
     "method": "GET",
     "resourceType": "fetch",
     "status": 200,
@@ -175,25 +203,11 @@
     "contentType": "application/json; charset=utf-8"
   },
   {
-    "url": "https://between.ghost.io/ghost/api/content/newsletters/?limit=100&key=a8763390c4c38ea4085efcf87e",
-    "method": "GET",
-    "resourceType": "fetch",
-    "status": 200,
-    "contentType": "application/json; charset=utf-8"
-  },
-  {
     "url": "https://between.ghost.io/author/ariel/page/2/",
     "method": "GET",
     "resourceType": "fetch",
     "status": 200,
     "contentType": "text/html; charset=utf-8"
-  },
-  {
-    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/size/w1200/2026/07/-------2026-07-16-------1.55.28.png",
-    "method": "GET",
-    "resourceType": "image",
-    "status": 200,
-    "contentType": "image/png"
   },
   {
     "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/size/w1200/2026/07/-------2026-07-16-------1.51.02.png",
@@ -203,35 +217,14 @@
     "contentType": "image/png"
   },
   {
-    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/size/w1200/2026/07/-------2026-07-16-------1.46.09.png",
+    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/size/w1200/2026/07/-------2026-07-16-------1.59.45.png",
     "method": "GET",
     "resourceType": "image",
     "status": 200,
     "contentType": "image/png"
   },
   {
-    "url": "https://between.ghost.io/author/ariel/page/3/",
-    "method": "GET",
-    "resourceType": "fetch",
-    "status": 200,
-    "contentType": "text/html; charset=utf-8"
-  },
-  {
-    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/size/w1200/2026/07/-------2026-07-16-------1.41.08.png",
-    "method": "GET",
-    "resourceType": "image",
-    "status": 200,
-    "contentType": "image/png"
-  },
-  {
-    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/size/w1200/2026/07/----------2.png",
-    "method": "GET",
-    "resourceType": "image",
-    "status": 200,
-    "contentType": "image/png"
-  },
-  {
-    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/size/w1200/2026/07/----------1.png",
+    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/size/w1200/2026/07/-------2026-07-16-------1.55.28.png",
     "method": "GET",
     "resourceType": "image",
     "status": 200,

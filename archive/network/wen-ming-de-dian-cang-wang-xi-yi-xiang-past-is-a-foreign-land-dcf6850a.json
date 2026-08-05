@@ -105,7 +105,14 @@
     "contentType": "font/woff2"
   },
   {
-    "url": "https://cdn.jsdelivr.net/ghost/comments-ui@~1.5/umd/comments-ui.min.js",
+    "url": "https://cdn.jsdelivr.net/ghost/portal@~2.69/umd/portal.min.js",
+    "method": "GET",
+    "resourceType": "script",
+    "status": 304,
+    "contentType": ""
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js",
     "method": "GET",
     "resourceType": "script",
     "status": 304,
@@ -115,36 +122,22 @@
     "url": "https://cdn.jsdelivr.net/ghost/announcement-bar@~1.1/umd/announcement-bar.min.js",
     "method": "GET",
     "resourceType": "script",
-    "status": 200,
-    "contentType": "application/javascript; charset=utf-8"
+    "status": 304,
+    "contentType": ""
   },
   {
-    "url": "https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js",
+    "url": "https://cdn.jsdelivr.net/ghost/comments-ui@~1.5/umd/comments-ui.min.js",
     "method": "GET",
     "resourceType": "script",
-    "status": 200,
-    "contentType": "application/javascript; charset=utf-8"
+    "status": 304,
+    "contentType": ""
   },
   {
     "url": "https://cdn.jsdelivr.net/ghost/portal@~2.69/umd/portal.min.js",
     "method": "GET",
-    "resourceType": "script",
-    "status": 200,
-    "contentType": "application/javascript; charset=utf-8"
-  },
-  {
-    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/icon/----------2-3445d642-33b4-461e-a4b6-625d25a7715e.PNG",
-    "method": "GET",
-    "resourceType": "image",
-    "status": 200,
-    "contentType": "application/octet-stream"
-  },
-  {
-    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/icon/----------2-17d48911-bc7c-4635-9b08-70f9e273e6f5.PNG",
-    "method": "GET",
-    "resourceType": "image",
-    "status": 200,
-    "contentType": "application/octet-stream"
+    "resourceType": "other",
+    "status": 304,
+    "contentType": ""
   },
   {
     "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/thumbnail/IMG_9233-2430d13a-65a9-4594-897c-0b295dc6cf9a.JPG",
@@ -161,11 +154,18 @@
     "contentType": "application/octet-stream"
   },
   {
-    "url": "https://cdn.jsdelivr.net/ghost/comments-ui@~1.5/umd/comments-ui.min.js",
+    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/icon/----------2-3445d642-33b4-461e-a4b6-625d25a7715e.PNG",
     "method": "GET",
-    "resourceType": "other",
-    "status": 304,
-    "contentType": ""
+    "resourceType": "image",
+    "status": 200,
+    "contentType": "application/octet-stream"
+  },
+  {
+    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/icon/----------2-17d48911-bc7c-4635-9b08-70f9e273e6f5.PNG",
+    "method": "GET",
+    "resourceType": "image",
+    "status": 200,
+    "contentType": "application/octet-stream"
   },
   {
     "url": "https://between.ghost.io/members/api/member/",
@@ -182,14 +182,14 @@
     "contentType": "application/json; charset=utf-8"
   },
   {
-    "url": "https://between.ghost.io/ghost/api/content/tiers/?limit=100&include=monthly_price%2Cyearly_price%2Cbenefits&key=a8763390c4c38ea4085efcf87e",
+    "url": "https://between.ghost.io/ghost/api/content/settings/?key=a8763390c4c38ea4085efcf87e",
     "method": "GET",
     "resourceType": "fetch",
     "status": 200,
     "contentType": "application/json; charset=utf-8"
   },
   {
-    "url": "https://between.ghost.io/ghost/api/content/settings/?key=a8763390c4c38ea4085efcf87e",
+    "url": "https://between.ghost.io/ghost/api/content/tiers/?limit=100&include=monthly_price%2Cyearly_price%2Cbenefits&key=a8763390c4c38ea4085efcf87e",
     "method": "GET",
     "resourceType": "fetch",
     "status": 200,
@@ -203,11 +203,32 @@
     "contentType": "application/json; charset=utf-8"
   },
   {
+    "url": "https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js",
+    "method": "GET",
+    "resourceType": "other",
+    "status": 304,
+    "contentType": ""
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/ghost/announcement-bar@~1.1/umd/announcement-bar.min.js",
+    "method": "GET",
+    "resourceType": "other",
+    "status": 304,
+    "contentType": ""
+  },
+  {
     "url": "https://between.ghost.io/members/api/comments/counts/?ids=6a5794c7ae572000015f60ee",
     "method": "GET",
     "resourceType": "fetch",
     "status": 200,
     "contentType": "application/json; charset=utf-8"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/ghost/comments-ui@~1.5/umd/comments-ui.min.js",
+    "method": "GET",
+    "resourceType": "other",
+    "status": 304,
+    "contentType": ""
   },
   {
     "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/icon/----------2-5a86f1ef-7b1c-4dca-82d4-c0ddb7860e92.PNG",
@@ -238,14 +259,14 @@
     "contentType": "application/json; charset=utf-8"
   },
   {
-    "url": "https://between.ghost.io/members/api/comments/post/6a5794c7ae572000015f60ee/?limit=20&page=1&order=count__net_score+desc%2C+created_at+desc",
+    "url": "https://between.ghost.io/members/api/comments/counts/?ids=6a5794c7ae572000015f60ee",
     "method": "GET",
     "resourceType": "fetch",
     "status": 200,
     "contentType": "application/json; charset=utf-8"
   },
   {
-    "url": "https://between.ghost.io/members/api/comments/counts/?ids=6a5794c7ae572000015f60ee",
+    "url": "https://between.ghost.io/members/api/comments/post/6a5794c7ae572000015f60ee/?limit=20&page=1&order=count__net_score+desc%2C+created_at+desc",
     "method": "GET",
     "resourceType": "fetch",
     "status": 200,

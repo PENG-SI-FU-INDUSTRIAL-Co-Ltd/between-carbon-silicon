@@ -140,6 +140,13 @@
     "contentType": "application/json; charset=utf-8"
   },
   {
+    "url": "https://between.ghost.io/ghost/api/content/tiers/?limit=100&include=monthly_price%2Cyearly_price%2Cbenefits&key=a8763390c4c38ea4085efcf87e",
+    "method": "GET",
+    "resourceType": "fetch",
+    "status": 200,
+    "contentType": "application/json; charset=utf-8"
+  },
+  {
     "url": "https://between.ghost.io/ghost/api/content/settings/?key=a8763390c4c38ea4085efcf87e",
     "method": "GET",
     "resourceType": "fetch",
@@ -148,13 +155,6 @@
   },
   {
     "url": "https://between.ghost.io/ghost/api/content/newsletters/?limit=100&key=a8763390c4c38ea4085efcf87e",
-    "method": "GET",
-    "resourceType": "fetch",
-    "status": 200,
-    "contentType": "application/json; charset=utf-8"
-  },
-  {
-    "url": "https://between.ghost.io/ghost/api/content/tiers/?limit=100&include=monthly_price%2Cyearly_price%2Cbenefits&key=a8763390c4c38ea4085efcf87e",
     "method": "GET",
     "resourceType": "fetch",
     "status": 200,

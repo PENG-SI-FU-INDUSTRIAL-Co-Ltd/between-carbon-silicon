@@ -105,32 +105,60 @@
     "contentType": "font/woff2"
   },
   {
+    "url": "https://cdn.jsdelivr.net/ghost/portal@~2.69/umd/portal.min.js",
+    "method": "GET",
+    "resourceType": "script",
+    "status": 304,
+    "contentType": ""
+  },
+  {
     "url": "https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js",
     "method": "GET",
     "resourceType": "script",
-    "status": 200,
-    "contentType": "application/javascript; charset=utf-8"
+    "status": 304,
+    "contentType": ""
   },
   {
     "url": "https://cdn.jsdelivr.net/ghost/announcement-bar@~1.1/umd/announcement-bar.min.js",
     "method": "GET",
     "resourceType": "script",
-    "status": 200,
-    "contentType": "application/javascript; charset=utf-8"
+    "status": 304,
+    "contentType": ""
   },
   {
     "url": "https://cdn.jsdelivr.net/ghost/comments-ui@~1.5/umd/comments-ui.min.js",
     "method": "GET",
     "resourceType": "script",
-    "status": 200,
-    "contentType": "application/javascript; charset=utf-8"
+    "status": 304,
+    "contentType": ""
   },
   {
     "url": "https://cdn.jsdelivr.net/ghost/portal@~2.69/umd/portal.min.js",
     "method": "GET",
-    "resourceType": "script",
-    "status": 200,
-    "contentType": "application/javascript; charset=utf-8"
+    "resourceType": "other",
+    "status": 304,
+    "contentType": ""
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js",
+    "method": "GET",
+    "resourceType": "other",
+    "status": 304,
+    "contentType": ""
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/ghost/announcement-bar@~1.1/umd/announcement-bar.min.js",
+    "method": "GET",
+    "resourceType": "other",
+    "status": 304,
+    "contentType": ""
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/ghost/comments-ui@~1.5/umd/comments-ui.min.js",
+    "method": "GET",
+    "resourceType": "other",
+    "status": 304,
+    "contentType": ""
   },
   {
     "url": "https://between.ghost.io/members/api/member/",
@@ -161,14 +189,14 @@
     "contentType": "application/json; charset=utf-8"
   },
   {
-    "url": "https://between.ghost.io/ghost/api/content/tiers/?limit=100&include=monthly_price%2Cyearly_price%2Cbenefits&key=a8763390c4c38ea4085efcf87e",
+    "url": "https://between.ghost.io/ghost/api/content/newsletters/?limit=100&key=a8763390c4c38ea4085efcf87e",
     "method": "GET",
     "resourceType": "fetch",
     "status": 200,
     "contentType": "application/json; charset=utf-8"
   },
   {
-    "url": "https://between.ghost.io/ghost/api/content/newsletters/?limit=100&key=a8763390c4c38ea4085efcf87e",
+    "url": "https://between.ghost.io/ghost/api/content/tiers/?limit=100&include=monthly_price%2Cyearly_price%2Cbenefits&key=a8763390c4c38ea4085efcf87e",
     "method": "GET",
     "resourceType": "fetch",
     "status": 200,
@@ -182,21 +210,21 @@
     "contentType": "application/json; charset=utf-8"
   },
   {
+    "url": "https://between.ghost.io/members/api/comments/counts/?ids=6a579349ae572000015f60de",
+    "method": "GET",
+    "resourceType": "fetch",
+    "status": 200,
+    "contentType": "application/json; charset=utf-8"
+  },
+  {
+    "url": "https://between.ghost.io/members/api/comments/counts/?ids=6a579349ae572000015f60de",
+    "method": "GET",
+    "resourceType": "fetch",
+    "status": 200,
+    "contentType": "application/json; charset=utf-8"
+  },
+  {
     "url": "https://between.ghost.io/members/api/comments/post/6a579349ae572000015f60de/?limit=20&page=1&order=count__net_score+desc%2C+created_at+desc",
-    "method": "GET",
-    "resourceType": "fetch",
-    "status": 200,
-    "contentType": "application/json; charset=utf-8"
-  },
-  {
-    "url": "https://between.ghost.io/members/api/comments/counts/?ids=6a579349ae572000015f60de",
-    "method": "GET",
-    "resourceType": "fetch",
-    "status": 200,
-    "contentType": "application/json; charset=utf-8"
-  },
-  {
-    "url": "https://between.ghost.io/members/api/comments/counts/?ids=6a579349ae572000015f60de",
     "method": "GET",
     "resourceType": "fetch",
     "status": 200,

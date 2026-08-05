@@ -126,13 +126,6 @@
     "contentType": "application/javascript; charset=utf-8"
   },
   {
-    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/size/w1200/2026/07/-------2026-07-16-------1.34.41.png",
-    "method": "GET",
-    "resourceType": "image",
-    "status": 200,
-    "contentType": "image/png"
-  },
-  {
     "url": "https://between.ghost.io/members/api/member/",
     "method": "GET",
     "resourceType": "fetch",
@@ -166,5 +159,12 @@
     "resourceType": "fetch",
     "status": 200,
     "contentType": "application/json; charset=utf-8"
+  },
+  {
+    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/size/w1200/2026/07/-------2026-07-16-------1.34.41.png",
+    "method": "GET",
+    "resourceType": "image",
+    "status": 200,
+    "contentType": "image/png"
   }
 ]

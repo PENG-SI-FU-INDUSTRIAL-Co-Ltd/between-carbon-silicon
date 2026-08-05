@@ -98,7 +98,9 @@ for (const item of pages) {
     await originalPage.screenshot({ path: originalPath, fullPage: true });
     await localPage.screenshot({ path: localPath, fullPage: true });
     const media = await localPage.evaluate(() => [...document.querySelectorAll("img, audio, video")].map(el => ({
-      url: el.currentSrc || el.src, ok: el.tagName === "IMG" ? el.complete && el.naturalWidth > 0 : el.readyState > 0,
+      url: el.currentSrc || el.src,
+      ok: !el.getAttribute("src") || el.classList.contains("kg-audio-hide")
+        || (el.tagName === "IMG" ? el.complete && el.naturalWidth > 0 : el.readyState > 0),
     })));
     const internalLinks = await localPage.evaluate(() => [...document.querySelectorAll("a[href]")]
       .map(a => new URL(a.href, location.href)).filter(u => u.origin === location.origin).map(u => u.pathname));

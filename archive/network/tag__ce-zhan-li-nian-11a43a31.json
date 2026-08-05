@@ -105,53 +105,25 @@
     "contentType": "font/woff2"
   },
   {
-    "url": "https://cdn.jsdelivr.net/ghost/portal@~2.69/umd/portal.min.js",
-    "method": "GET",
-    "resourceType": "script",
-    "status": 304,
-    "contentType": ""
-  },
-  {
     "url": "https://cdn.jsdelivr.net/ghost/announcement-bar@~1.1/umd/announcement-bar.min.js",
     "method": "GET",
     "resourceType": "script",
-    "status": 304,
-    "contentType": ""
-  },
-  {
-    "url": "https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js",
-    "method": "GET",
-    "resourceType": "script",
-    "status": 304,
-    "contentType": ""
-  },
-  {
-    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/size/w1200/2026/07/0618_------------_---------bannner_ok-1.jpg",
-    "method": "GET",
-    "resourceType": "image",
     "status": 200,
-    "contentType": "image/jpeg"
-  },
-  {
-    "url": "https://cdn.jsdelivr.net/ghost/portal@~2.69/umd/portal.min.js",
-    "method": "GET",
-    "resourceType": "other",
-    "status": 304,
-    "contentType": ""
-  },
-  {
-    "url": "https://cdn.jsdelivr.net/ghost/announcement-bar@~1.1/umd/announcement-bar.min.js",
-    "method": "GET",
-    "resourceType": "other",
-    "status": 304,
-    "contentType": ""
+    "contentType": "application/javascript; charset=utf-8"
   },
   {
     "url": "https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js",
     "method": "GET",
-    "resourceType": "other",
-    "status": 304,
-    "contentType": ""
+    "resourceType": "script",
+    "status": 200,
+    "contentType": "application/javascript; charset=utf-8"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/ghost/portal@~2.69/umd/portal.min.js",
+    "method": "GET",
+    "resourceType": "script",
+    "status": 200,
+    "contentType": "application/javascript; charset=utf-8"
   },
   {
     "url": "https://between.ghost.io/members/api/member/",
@@ -168,7 +140,14 @@
     "contentType": "application/json; charset=utf-8"
   },
   {
-    "url": "https://between.ghost.io/ghost/api/content/settings/?key=a8763390c4c38ea4085efcf87e",
+    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/size/w1200/2026/07/0618_------------_---------bannner_ok-1.jpg",
+    "method": "GET",
+    "resourceType": "image",
+    "status": 200,
+    "contentType": "image/jpeg"
+  },
+  {
+    "url": "https://between.ghost.io/ghost/api/content/tiers/?limit=100&include=monthly_price%2Cyearly_price%2Cbenefits&key=a8763390c4c38ea4085efcf87e",
     "method": "GET",
     "resourceType": "fetch",
     "status": 200,
@@ -182,7 +161,7 @@
     "contentType": "application/json; charset=utf-8"
   },
   {
-    "url": "https://between.ghost.io/ghost/api/content/tiers/?limit=100&include=monthly_price%2Cyearly_price%2Cbenefits&key=a8763390c4c38ea4085efcf87e",
+    "url": "https://between.ghost.io/ghost/api/content/settings/?key=a8763390c4c38ea4085efcf87e",
     "method": "GET",
     "resourceType": "fetch",
     "status": 200,

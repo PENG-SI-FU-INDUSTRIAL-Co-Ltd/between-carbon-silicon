@@ -105,13 +105,6 @@
     "contentType": "font/woff2"
   },
   {
-    "url": "https://cdn.jsdelivr.net/ghost/portal@~2.69/umd/portal.min.js",
-    "method": "GET",
-    "resourceType": "script",
-    "status": 304,
-    "contentType": ""
-  },
-  {
     "url": "https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js",
     "method": "GET",
     "resourceType": "script",
@@ -129,36 +122,22 @@
     "url": "https://cdn.jsdelivr.net/ghost/comments-ui@~1.5/umd/comments-ui.min.js",
     "method": "GET",
     "resourceType": "script",
-    "status": 200,
-    "contentType": "application/javascript; charset=utf-8"
+    "status": 304,
+    "contentType": ""
   },
   {
-    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/icon/favicon_144x144-a48e6b25-201d-4520-ba40-e31bd2e4e95a.png",
+    "url": "https://cdn.jsdelivr.net/ghost/portal@~2.69/umd/portal.min.js",
     "method": "GET",
-    "resourceType": "image",
-    "status": 200,
-    "contentType": "application/octet-stream"
+    "resourceType": "script",
+    "status": 304,
+    "contentType": ""
   },
   {
-    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/thumbnail/AIdro_l87hH_IPQMe7sXlXfbUOCTZNnt0mXswVmV1XUAVRK0GSE-s900-c-k-c0x00ffffff-no-rj-fedb478a-5629-4043-8520-058797ab2ae6",
+    "url": "https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js",
     "method": "GET",
-    "resourceType": "image",
-    "status": 200,
-    "contentType": "application/octet-stream"
-  },
-  {
-    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/2026/07/----------logo-1.PNG",
-    "method": "GET",
-    "resourceType": "image",
-    "status": 200,
-    "contentType": "image/png"
-  },
-  {
-    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/2026/07/6---15----3--1.png",
-    "method": "GET",
-    "resourceType": "image",
-    "status": 200,
-    "contentType": "image/png"
+    "resourceType": "other",
+    "status": 304,
+    "contentType": ""
   },
   {
     "url": "https://cdn.jsdelivr.net/ghost/announcement-bar@~1.1/umd/announcement-bar.min.js",
@@ -175,7 +154,7 @@
     "contentType": ""
   },
   {
-    "url": "https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js",
+    "url": "https://cdn.jsdelivr.net/ghost/comments-ui@~1.5/umd/comments-ui.min.js",
     "method": "GET",
     "resourceType": "other",
     "status": 304,
@@ -217,6 +196,20 @@
     "contentType": "application/json; charset=utf-8"
   },
   {
+    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/icon/favicon_144x144-a48e6b25-201d-4520-ba40-e31bd2e4e95a.png",
+    "method": "GET",
+    "resourceType": "image",
+    "status": 200,
+    "contentType": "application/octet-stream"
+  },
+  {
+    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/thumbnail/AIdro_l87hH_IPQMe7sXlXfbUOCTZNnt0mXswVmV1XUAVRK0GSE-s900-c-k-c0x00ffffff-no-rj-fedb478a-5629-4043-8520-058797ab2ae6",
+    "method": "GET",
+    "resourceType": "image",
+    "status": 200,
+    "contentType": "application/octet-stream"
+  },
+  {
     "url": "https://between.ghost.io/members/api/comments/counts/?ids=6a57aed4ae572000015f6189",
     "method": "GET",
     "resourceType": "fetch",
@@ -224,14 +217,14 @@
     "contentType": "application/json; charset=utf-8"
   },
   {
-    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/size/w1000/2026/07/hf_20260622_093253_38799bd5-0490-4314-85b4-1d4721ebeed9_0-1.png",
+    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/2026/07/----------logo-1.PNG",
     "method": "GET",
     "resourceType": "image",
     "status": 200,
     "contentType": "image/png"
   },
   {
-    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/size/w1000/2026/07/690934CA-6A4D-4B87-BBA5-A0A05A5A3928.png",
+    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/2026/07/6---15----3--1.png",
     "method": "GET",
     "resourceType": "image",
     "status": 200,
@@ -259,11 +252,11 @@
     "contentType": "application/json; charset=utf-8"
   },
   {
-    "url": "https://between.ghost.io/members/api/comments/post/6a57aed4ae572000015f6189/?limit=20&page=1&order=count__net_score+desc%2C+created_at+desc",
+    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/size/w1000/2026/07/hf_20260622_093253_38799bd5-0490-4314-85b4-1d4721ebeed9_0-1.png",
     "method": "GET",
-    "resourceType": "fetch",
+    "resourceType": "image",
     "status": 200,
-    "contentType": "application/json; charset=utf-8"
+    "contentType": "image/png"
   },
   {
     "url": "https://between.ghost.io/members/api/comments/counts/?ids=6a57aed4ae572000015f6189",
@@ -271,6 +264,20 @@
     "resourceType": "fetch",
     "status": 200,
     "contentType": "application/json; charset=utf-8"
+  },
+  {
+    "url": "https://between.ghost.io/members/api/comments/post/6a57aed4ae572000015f6189/?limit=20&page=1&order=count__net_score+desc%2C+created_at+desc",
+    "method": "GET",
+    "resourceType": "fetch",
+    "status": 200,
+    "contentType": "application/json; charset=utf-8"
+  },
+  {
+    "url": "https://storage.ghost.io/c/56/6e/566e9152-0c69-405c-b715-53941b13e781/content/images/size/w1000/2026/07/690934CA-6A4D-4B87-BBA5-A0A05A5A3928.png",
+    "method": "GET",
+    "resourceType": "image",
+    "status": 200,
+    "contentType": "image/png"
   },
   {
     "url": "https://between.ghost.io/ghost/auth-frame/",
